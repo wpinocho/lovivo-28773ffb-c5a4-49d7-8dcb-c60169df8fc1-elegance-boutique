@@ -119,24 +119,24 @@ export const EcommerceTemplate = ({
           {/* Brand */}
           <div>
             <BrandLogoLeft />
-            <p className="mt-4 text-white/70">
-              Your trusted online store
+            <p className="mt-4 text-white/70 font-light">
+              Elegancia atemporal para la mujer moderna
             </p>
           </div>
 
           {/* Links */}
           <div>
-            <h3 className="font-semibold mb-4 text-white">Links</h3>
+            <h3 className="font-light mb-4 text-white text-lg">Enlaces</h3>
             <div className="space-y-2">
               <Link 
                 to="/" 
-                className="block text-white/70 hover:text-white transition-colors"
+                className="block text-white/70 hover:text-white transition-colors font-light"
               >
-                Home
+                Inicio
               </Link>
               <Link 
                 to="/blog" 
-                className="block text-white/70 hover:text-white transition-colors"
+                className="block text-white/70 hover:text-white transition-colors font-light"
               >
                 Blog
               </Link>
@@ -145,13 +145,13 @@ export const EcommerceTemplate = ({
 
           {/* Social Links */}
           <div>
-            <h3 className="font-semibold mb-4 text-white">Follow Us</h3>
+            <h3 className="font-light mb-4 text-white text-lg">Síguenos</h3>
             <SocialLinks />
           </div>
         </div>
 
-        <div className="mt-8 pt-8 border-t border-white/20 text-center text-white/70">
-          <p>&copy; 2025 Your Store. All rights reserved.</p>
+        <div className="mt-8 pt-8 border-t border-white/20 text-center text-white/70 font-light">
+          <p>&copy; 2025 ÉLÉGANTE. Todos los derechos reservados.</p>
         </div>
       </div>
     </div>
